@@ -1,13 +1,21 @@
+
+
+@media screen and (min-width:860px) {
+    .section3-info{
+        margin-bottom: calc(50px - 3vw);
+    }
+}
+
 @media screen and (max-width:768px) {
     body{
-        background-color: #dddada;
+        background-color: #c0fbff;
     }
     .header-h1{
         font-size: 18px;
     }
-    .section3-info{
+    /* .section3-info{
         margin-bottom: calc(50px - 4vw);
-    }
+    } */
 }
 
 @media screen and (max-width:480px) {
@@ -16,5 +24,17 @@
     }
     .section-title{
         font-size: 10px;
+    }
+}
+
+@media screen and (min-width:1160px) {
+    .section3-info{
+        margin-bottom: calc(50px - 2.5vw);
+    }
+}
+
+@media screen and (min-width:1460px) {
+    .section3-info{
+        margin-bottom: calc(50px - 1.5vw);
     }
 }
