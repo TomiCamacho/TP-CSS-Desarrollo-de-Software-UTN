@@ -5,6 +5,9 @@
     .header-h1{
         font-size: 18px;
     }
+    .section3-info{
+        margin-bottom: calc(50px - 4vw);
+    }
 }
 
 @media screen and (max-width:480px) {

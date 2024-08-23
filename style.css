@@ -88,9 +88,9 @@ body{
     margin-top: 15px;
 }
 
-/* .section3{
-    background-color: aqua;
-} */
+.section3{
+    
+}
 
 .section3-info{
     margin-top: 20px;
@@ -121,4 +121,24 @@ body{
     top: 25px;
     left: 44vw;
     padding: 10px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: auto;
+    margin-top: 30px;
+    gap: 2vw;
+    /* justify-items: center; */
+    /* align-content: center; */
+}
+
+.grid-item{
+    background-color: #7167ff;
+    /* height: 50px; */
+    text-align: center;
+    padding: 20px 0px;
+    color: white;
+    font-weight: 600;
+    border-radius: 7px;
 }
