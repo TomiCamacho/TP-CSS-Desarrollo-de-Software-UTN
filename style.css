@@ -81,3 +81,39 @@ body{
     box-shadow: 5px 5px 5px 0px #919090;
     background-color: #ffdaaa;
 }
+
+/* .section3{
+    background-color: aqua;
+} */
+
+.section3-info{
+    margin-top: 20px;
+    margin-bottom: 80px;
+    font-size: 13.5px;
+    /* background-color: #580404; */
+    /* height: 110px; */
+}
+
+.section3-info-cajarelative{
+    padding: 10px;
+    background-color: rgb(188, 255, 233);
+    position: relative;
+    border-radius: 7px;
+    /* margin-bottom: 50px; */
+    /* border: 1px solid black; */
+}
+
+.section3-info-cajarelative-p{
+    max-width: 46vw;
+}
+
+.section3-info-cajaabsolute{
+    position:absolute;
+    color: white;
+    background-color: #008a6c;
+    border-radius: 7px;
+    /* border: 1px solid black; */
+    top: 25px;
+    left: 51%;
+    padding: 10px;
+}
